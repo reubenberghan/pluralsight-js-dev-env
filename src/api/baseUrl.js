@@ -1,5 +1,5 @@
 export default () => {
-  return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001/' : 'https://reubens-js-dev-env-demo-api.herokuapp.com/users';
+  return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001/' : 'https://reubens-js-dev-env-demo-api.herokuapp.com/';
 };
 
 function getQueryStringParameterByName(name, url) {
